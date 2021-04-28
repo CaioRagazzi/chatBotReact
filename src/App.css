@@ -7,3 +7,10 @@ body > #root > div {
   justify-content: center;
   align-items: center;
 }
+
+.AppLoading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

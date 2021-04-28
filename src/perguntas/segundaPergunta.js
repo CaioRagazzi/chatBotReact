@@ -10,7 +10,7 @@ export default function SegundaPergunta({previousStep, step, steps, triggerNextS
     return (
         <div>
             <h4>2. Pergunta</h4>
-            <p className="pt-4">Anna: What’s your job?</p>
+            <p>Anna: What’s your job?</p>
             <p>Christina: I’m __________ secretary.</p>
 
             <Button onClick={() => answerQuestion(false)} className="ml-1" variant="primary">an</Button>
