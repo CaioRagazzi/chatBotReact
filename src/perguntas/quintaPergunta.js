@@ -17,8 +17,8 @@ export default function QuintaPergunta({previousStep, step, steps, triggerNextSt
             <h4>5. Pergunta</h4>
             <p className="pt-4">__________ you like football?</p>
 
-            <Button disabled={disable} onClick={() => answerQuestion(true)} className="ml-1" variant="primary">Does</Button>
-            <Button disabled={disable} onClick={() => answerQuestion(false)} className="ml-1" variant="primary">Do</Button>
+            <Button disabled={disable} onClick={() => answerQuestion(false)} className="ml-1" variant="primary">Does</Button>
+            <Button disabled={disable} onClick={() => answerQuestion(true)} className="ml-1" variant="primary">Do</Button>
             <Button disabled={disable} onClick={() => answerQuestion(false)} className="ml-1" variant="primary">Are</Button>
             <Button disabled={disable} onClick={() => answerQuestion(false)} className="ml-1" variant="primary">___</Button>
         </div>
