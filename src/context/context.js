@@ -4,10 +4,14 @@ const BotContext = createContext();
 
 export const AuthProvider = ({ children }) => {
     const [name, setName] = useState('');
+    // eslint-disable-next-line
     const [idade, setIdade] = useState(0);
     const [objetivo, setObjetivo] = useState('');
+    // eslint-disable-next-line
     const [cursoIngles, setCursoIngles] = useState('');
+    // eslint-disable-next-line
     const [tempoCursoIngles, setTempoCursoIngles] = useState('');
+    // eslint-disable-next-line
     const [nivelIngles, setNivelIngles] = useState('');
     const [pontuacao, setPontuacao] = useState(0);
 
