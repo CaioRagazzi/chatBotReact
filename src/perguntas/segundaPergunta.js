@@ -18,10 +18,10 @@ export default function SegundaPergunta({previousStep, step, steps, triggerNextS
             <p>Anna: What’s your job?</p>
             <p>Christina: I’m __________ secretary.</p>
 
-            <Button disabled={disable} onClick={() => answerQuestion(false)} className="ml-1" variant="primary">an</Button>
-            <Button disabled={disable} onClick={() => answerQuestion(true)} className="ml-1" variant="primary">a</Button>
-            <Button disabled={disable} onClick={() => answerQuestion(false)} className="ml-1" variant="primary">one</Button>
-            <Button disabled={disable} onClick={() => answerQuestion(false)} className="ml-1" variant="primary">___</Button>
+            <Button disabled={disable} onClick={() => answerQuestion(false)} className="ml-1 mt-1" variant="primary">an</Button>
+            <Button disabled={disable} onClick={() => answerQuestion(true)} className="ml-1 mt-1" variant="primary">a</Button>
+            <Button disabled={disable} onClick={() => answerQuestion(false)} className="ml-1 mt-1" variant="primary">one</Button>
+            <Button disabled={disable} onClick={() => answerQuestion(false)} className="ml-1 mt-1" variant="primary">___</Button>
         </div>
     )
 }

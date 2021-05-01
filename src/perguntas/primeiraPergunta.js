@@ -17,10 +17,10 @@ export default function PrimeiraPergunta(props) {
             <h4>1. Pergunta</h4>
             <p className="pt-4">Hello. What _________ your name?</p>
 
-            <Button disabled={disable} className="ml-1" onClick={() => answerQuestion(false)} variant="primary">be</Button>
-            <Button disabled={disable} className="ml-1" onClick={() => answerQuestion(false)} variant="primary">are</Button>
-            <Button disabled={disable} className="ml-1" onClick={() => answerQuestion(true)} variant="primary">is</Button>
-            <Button disabled={disable} className="ml-1" onClick={() => answerQuestion(false)} variant="primary">___</Button>
+            <Button disabled={disable} className="ml-1 mt-1" onClick={() => answerQuestion(false)} variant="primary">be</Button>
+            <Button disabled={disable} className="ml-1 mt-1" onClick={() => answerQuestion(false)} variant="primary">are</Button>
+            <Button disabled={disable} className="ml-1 mt-1" onClick={() => answerQuestion(true)} variant="primary">is</Button>
+            <Button disabled={disable} className="ml-1 mt-1" onClick={() => answerQuestion(false)} variant="primary">___</Button>
         </div>
     )
 }

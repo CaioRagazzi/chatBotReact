@@ -17,10 +17,10 @@ export default function TerceiraPergunta({previousStep, step, steps, triggerNext
             <h4>3. Pergunta</h4>
             <p>I have a brother. __________ name is John.</p>
 
-            <Button disabled={disable} onClick={() => answerQuestion(false)} className="ml-1" variant="primary">Her</Button>
-            <Button disabled={disable} onClick={() => answerQuestion(false)} className="ml-1" variant="primary">Hers</Button>
-            <Button disabled={disable} onClick={() => answerQuestion(false)} className="ml-1" variant="primary">Him</Button>
-            <Button disabled={disable} onClick={() => answerQuestion(true)} className="ml-1" variant="primary">His</Button>
+            <Button disabled={disable} onClick={() => answerQuestion(false)} className="ml-1 mt-1" variant="primary">Her</Button>
+            <Button disabled={disable} onClick={() => answerQuestion(false)} className="ml-1 mt-1" variant="primary">Hers</Button>
+            <Button disabled={disable} onClick={() => answerQuestion(false)} className="ml-1 mt-1" variant="primary">Him</Button>
+            <Button disabled={disable} onClick={() => answerQuestion(true)} className="ml-1 mt-1" variant="primary">His</Button>
         </div>
     )
 }

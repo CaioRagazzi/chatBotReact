@@ -17,10 +17,10 @@ export default function DecimaPergunta({ previousStep, step, steps, triggerNextS
             <h4>10. Pergunta</h4>
             <p className="pt-4">He __________ have any money.</p>
 
-            <Button disabled={disable} onClick={() => answerQuestion(true)} className="ml-1" variant="primary">doesn’t</Button>
-            <Button disabled={disable} onClick={() => answerQuestion(false)} className="ml-1" variant="primary">don’t</Button>
-            <Button disabled={disable} onClick={() => answerQuestion(false)} className="ml-1" variant="primary">no</Button>
-            <Button disabled={disable} onClick={() => answerQuestion(false)} className="ml-1" variant="primary">not</Button>
+            <Button disabled={disable} onClick={() => answerQuestion(true)} className="ml-1 mt-1" variant="primary">doesn’t</Button>
+            <Button disabled={disable} onClick={() => answerQuestion(false)} className="ml-1 mt-1" variant="primary">don’t</Button>
+            <Button disabled={disable} onClick={() => answerQuestion(false)} className="ml-1 mt-1" variant="primary">no</Button>
+            <Button disabled={disable} onClick={() => answerQuestion(false)} className="ml-1 mt-1" variant="primary">not</Button>
         </div>
     )
 }
