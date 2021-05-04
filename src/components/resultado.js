@@ -19,9 +19,9 @@ export default function Resultado() {
                 <Card.Text>
                     Pacote Basico.
                     </Card.Text>
-                <p>- Pacote de 8 aulas X</p>
-                <p>- Pacote de 10 aulas Y</p>
-                <p>- Pacote de 5 aulas Z</p>
+                <p>- Pacote de 8 aulas avançadas</p>
+                <p>- Pacote de 10 aulas intermediarias</p>
+                <p>- Pacote de 5 aulas basicas</p>
             </div>
         )
     }
@@ -32,9 +32,9 @@ export default function Resultado() {
                 <Card.Text>
                     Pacote Intermediario.
                     </Card.Text>
-                <p>- Pacote de 8 aulas X</p>
-                <p>- Pacote de 10 aulas Y</p>
-                <p>- Pacote de 5 aulas Z</p>
+                <p>- Pacote de 8 aulas avançadas</p>
+                <p>- Pacote de 10 aulas intermediarias</p>
+                <p>- Pacote de 5 aulas basicas</p>
             </div>
         )
     }
@@ -45,9 +45,9 @@ export default function Resultado() {
                 <Card.Text>
                     Pacote Avançado.
                     </Card.Text>
-                <p>- Pacote de 8 aulas X</p>
-                <p>- Pacote de 10 aulas Y</p>
-                <p>- Pacote de 5 aulas Z</p>
+                <p>- Pacote de 8 aulas avançadas</p>
+                <p>- Pacote de 10 aulas intermediarias</p>
+                <p>- Pacote de 5 aulas basicas</p>
             </div>
         )
     }
